@@ -17,11 +17,6 @@ function App() {
           <VideoEmbed src="https://www.youtube.com/embed/uJBxB8OOZTo" />
       </main>
 
-      {/* <footer className="text-center">
-          <a href="https://github.com/DrCBeatz/arduino-theremin" target="_blank" rel="noreferrer">Arduino Theremin Github</a>
-          <p>Website by <a href="https://drcbeatz.com" target="_blank" rel="noreferrer">Dr. C. Beatz</a></p>
-      </footer> */}
-
       <Footer githubWebsiteLink="https://github.com/DrCBeatz/arduino-theremin" githubTitle="Arduino Theremin Github" authorWebsiteLink="https://drcbeatz.com" authorTitle="Dr. C. Beatz"/>
     </div>
   );
