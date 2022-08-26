@@ -1,5 +1,6 @@
 #include <iostream>
-
+// mega2560 arduino
+// Leonardo
 using namespace std;
 
 int valueToChannelVolumeMsg(int valueByte) {
@@ -34,11 +35,11 @@ int valueToPitchBendMsg(int value) {
 
 // This function writes the midi message to the arduino serial port:
 
-void sendMidiMsg(uint8_t status_byte, uint8_t data1_byte, uint8_t data2_byte) {
-    Serial.write((int)status_byte);
-    Serial.write((int)data1_byte);
-    Serial.write((int)data2_byte);
-}
+// void sendMidiMsg(uint8_t status_byte, uint8_t data1_byte, uint8_t data2_byte) {
+//     Serial.write((int)status_byte);
+//     Serial.write((int)data1_byte);
+//     Serial.write((int)data2_byte);
+// }
 
 
 // This is the test function which prints the 3 bytes of the midi msg on the screen:
