@@ -8,11 +8,9 @@ const MainNavigation = () => {
             <nav>
                 <div>
                     <ul>
+                        <li className="logo">Arduino Theremin</li>
                         <li>
                             <a href="https://github.com/DrCBeatz/arduino-theremin" target="_blank" rel="noreferrer">Github</a>
-                        </li>
-                        <li>
-                            <a hret="#">Video</a>
                         </li>
                         <li>
                             <a href="#">Instructions</a>

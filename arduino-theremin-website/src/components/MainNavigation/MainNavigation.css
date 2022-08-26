@@ -23,7 +23,7 @@
   }
   
   .header li {
-    margin-left: 3rem;
+    margin-left: 2rem;
   }
   
   .header a {
@@ -45,3 +45,18 @@
     padding: 0 1rem;
     margin-left: 0.5rem;
   }
+
+  @media only screen and (max-width: 600px) {
+    .logo {
+      font-size: 1rem;
+    }
+
+    .header li {
+      margin-left: 1rem;
+    }
+    
+    .header a {
+      font-size: 1rem;
+    }
+
+  } 
