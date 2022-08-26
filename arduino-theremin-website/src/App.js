@@ -3,12 +3,14 @@ import './App.css';
 // Components
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import MainNavigation from "./components/MainNavigation/MainNavigation";
 import VideoEmbed from './components/VideoEmbed/VideoEmbed';
 
 function App() {
   return (
     <div className="App">
 
+      <MainNavigation />
       <Header title="Arduino Theremin Website" />
 
       <main>
