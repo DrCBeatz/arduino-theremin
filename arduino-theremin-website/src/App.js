@@ -13,7 +13,9 @@ function App() {
       <MainNavigation />
       <Header title="Arduino Theremin Website" />
 
-      <main>
+      <main className="text-center">
+          <img className="leonardo-arduino-img" src="arduino-leonardo.png" alt="Arduino Uno"/>
+          <img height="200px" src="HC-SR04.jpg" alt="HC-SR04 ultrasonic sensor" />
           <VideoEmbed src="https://www.youtube.com/embed/uJBxB8OOZTo" />
       </main>
 

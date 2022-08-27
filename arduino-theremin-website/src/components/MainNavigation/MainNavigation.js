@@ -1,6 +1,5 @@
 import React from 'react';
 import "./MainNavigation.css"
-// import classes from './MainNavigation.module.css';
 
 const MainNavigation = () => {
     return (
@@ -8,7 +7,7 @@ const MainNavigation = () => {
             <nav>
                 <div>
                     <ul>
-                        <li className="logo">Arduino Theremin</li>
+                        <li className="logo"><img className="arduino-icon" src="headerLogo-arduino.svg" /><span className="brand">Arduino Theremin</span></li>
                         <li>
                             <a href="https://github.com/DrCBeatz/arduino-theremin" target="_blank" rel="noreferrer">Github</a>
                         </li>

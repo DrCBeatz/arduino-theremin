@@ -1,7 +1,9 @@
-h1 {
-  text-align: center;
+.leonardo-arduino-img {
+  margin: 1rem 0 3rem;
 }
 
-.text-center {
-  text-align: center
+@media only screen and (min-width: 600px) {
+  .leonardo-arduino-img {
+    margin-right: 2rem;
+  }
 }

@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #77002e;
+    background-color: rgb(32, 132, 136);
     padding: 0 10%;
   }
   
@@ -13,6 +13,11 @@
     color: white;
     font-weight: bold;
   }
+
+  .arduino-icon {
+    height: 1.5rem;
+    margin-right: 1rem;
+  }
   
   .header ul {
     list-style: none;
@@ -20,16 +25,17 @@
     padding: 0;
     display: flex;
     align-items: baseline;
+    margin-left: -5rem;
   }
   
   .header li {
     margin-left: 2rem;
   }
-  
+
   .header a {
     text-decoration: none;
     font-size: 1.5rem;
-    color: #fcb8d2;
+    color: rgb(156, 252, 252);
   }
   
   .header a:hover,
@@ -48,7 +54,11 @@
 
   @media only screen and (max-width: 600px) {
     .logo {
-      font-size: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .header ul {
+      margin-left: -2rem;
     }
 
     .header li {
@@ -56,7 +66,17 @@
     }
     
     .header a {
-      font-size: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .arduino-icon {
+      height: 1.2rem;
+      margin-bottom: -1px;
+      margin-right: 0.3rem;
+    }
+
+    .brand {
+      display: none;
     }
 
   } 
