@@ -1,4 +1,3 @@
-import React from "react";
 import "./MainNavigation.css";
 
 const MainNavigation = () => {
@@ -37,4 +36,4 @@ const MainNavigation = () => {
   );
 };
 
-export { MainNavigation };
+export default MainNavigation;

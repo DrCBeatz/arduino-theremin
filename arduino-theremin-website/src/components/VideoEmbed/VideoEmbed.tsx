@@ -21,4 +21,4 @@ const VideoEmbed = (props: VideoEmbedProps) => {
   );
 };
 
-export { VideoEmbed };
+export default VideoEmbed;

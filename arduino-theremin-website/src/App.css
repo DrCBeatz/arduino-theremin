@@ -66,3 +66,22 @@ main {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+.card-a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(32, 132, 136);
+}
+
+.card-a:hover,
+.card-a:active,
+.card-a.active {
+  color: rgb(22, 101, 103);
+}

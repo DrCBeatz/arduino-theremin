@@ -1,4 +1,3 @@
-import React from "react";
 import "./Header.css";
 
 interface HeaderProps {
@@ -13,4 +12,4 @@ const Header = (props: HeaderProps) => {
   );
 };
 
-export { Header };
+export default Header;
