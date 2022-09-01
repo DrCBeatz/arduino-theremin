@@ -6,7 +6,7 @@ interface VideoEmbedProps {
 }
 const VideoEmbed = (props: VideoEmbedProps) => {
   return (
-    <div className="container">
+    <div className="video-container">
       <iframe
         className="responsive-iframe"
         width="560"

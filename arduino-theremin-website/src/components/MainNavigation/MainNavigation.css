@@ -52,7 +52,7 @@
     margin-left: 0.5rem;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 720px) {
     .logo {
       font-size: 1.5rem;
     }
