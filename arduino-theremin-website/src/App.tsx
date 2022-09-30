@@ -48,7 +48,7 @@ function App() {
 
         <section>
           <h2 id="video">Video demonstration:</h2>
-          <VideoEmbed src="https://www.youtube.com/embed/uJBxB8OOZTo" />
+          <VideoEmbed src="https://www.youtube.com/embed/SRdbWWPfvxk" />
         </section>
         <section>
           <h2 id="midi-messages">How MIDI messages work:</h2>
