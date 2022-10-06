@@ -29,15 +29,9 @@ void noteOff(byte channel, byte pitch, byte velocity) {
 }
 
 void pitchBend(int channel,int value) {
-      if (value > 0x3FFF) {
-        value = 0x3FFF;
-    }
-    //byte status_byte = 0xE0;
-    //byte lsb = value & 0x7f;
-    //byte msb = value >> 7;
-    //midiEventPacket_t event = {0x0B, 0xE0 | channel, control, value};
-    //midiEventPacket_t event = {status_byte << 16 | msb | (lsb << 8)};
-  //MidiUSB.sendMIDI(event);
+  if (value > 0x3FFF) {
+    value = 0x3FFF;
+  }
   byte lowValue = value & 0x7F;
   byte highValue = value >> 7;
   midiEventPacket_t event = {0x0E, 0xE0 | channel, lowValue, highValue};
