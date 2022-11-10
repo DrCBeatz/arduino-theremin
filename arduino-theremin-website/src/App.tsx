@@ -14,42 +14,41 @@ function App() {
       <Header title="Arduino Theremin Website" />
       <main>
         <section>
-          <h2>Required Components:</h2>
-          <div className="container">
-            <div className="column-1 box">
-              <Card>
-                <div className="card-container">
-                  <h3 className="card-h3">Arduino Leonardo</h3>
-                  <img
-                    height="130px"
-                    className="card-img leonardo-arduino-img"
-                    src="arduino-leonardo.png"
-                    alt="Arduino Uno"
-                  />
-                </div>
-              </Card>
+          <h2>Circuit Diagram:</h2>
+          <Card>
+            <div className="card-container">
+              <h3 className="card-h3">
+                <strong>(Instructions coming soon!)</strong>
+              </h3>
+              <img
+                className="img-responsive circuit-img"
+                src="arduino_circuit_diagram.jpg"
+                alt="arduino circuit diagram"
+              />
             </div>
-
-            <div className="column-1 box">
-              <Card>
-                <div className="card-container">
-                  <h3 className="card-h3">HC-SR04 ultrasonic sensor</h3>
-                  <img
-                    className="card-img"
-                    height="194px"
-                    src="HC-SR04.jpg"
-                    alt="HC-SR04 ultrasonic sensor"
-                  />
-                </div>
-              </Card>
+          </Card>
+          <Card>
+            <div className="card-container">
+              <h3 className="card-h3">Required Components:</h3>
+              <ul className="component-list">
+                <li>Arduino Leonardo x1</li>
+                <li>HC-SR04 Ultrasonic Sensor x2</li>
+                <li>Full Sized Breadboard (830 tie-points) x1</li>
+                <li>Basic Yellow LED 5mm x1</li>
+                <li>220 Ohm Resistor x1</li>
+                <li>Mini Pushbutton Switch x1</li>
+                <li>10K Ohm Resistor x1</li>
+                <li>Breadboard Jumper Wires x14</li>
+              </ul>
             </div>
-          </div>
+          </Card>
         </section>
 
         <section>
           <h2 id="video">Video demonstration:</h2>
           <VideoEmbed src="https://www.youtube.com/embed/SRdbWWPfvxk" />
         </section>
+
         <section>
           <h2 id="midi-messages">How MIDI messages work:</h2>
           <Card>
@@ -119,12 +118,18 @@ function App() {
             </p>
             <ul>
               <li>
-                <a className="card-a" href="https://www.arduino.cc/reference/en/libraries/midiusb/">
+                <a
+                  className="card-a"
+                  href="https://www.arduino.cc/reference/en/libraries/midiusb/"
+                >
                   Arduino MIDIUSB library reference
                 </a>
               </li>
               <li>
-                <a className="card-a" href="https://github.com/arduino-libraries/MIDIUSB">
+                <a
+                  className="card-a"
+                  href="https://github.com/arduino-libraries/MIDIUSB"
+                >
                   MIDIUSB Github
                 </a>
               </li>

@@ -85,3 +85,17 @@ ul li {
 .card-a.active {
   color: rgb(22, 101, 103);
 }
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+}
+
+.circuit-img {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.component-list {
+  padding-bottom: 1rem;
+}
