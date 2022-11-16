@@ -16,30 +16,34 @@ function App() {
         <section>
           <h2>Circuit Diagram:</h2>
           <Card>
-            <div className="card-container">
-              <h3 className="card-h3">
-                <strong>(Instructions coming soon!)</strong>
-              </h3>
-              <img
-                className="img-responsive circuit-img"
-                src="arduino_circuit_diagram.jpg"
-                alt="arduino circuit diagram"
-              />
-            </div>
-          </Card>
-          <Card>
-            <div className="card-container">
-              <h3 className="card-h3">Required Components:</h3>
-              <ul className="component-list">
-                <li>Arduino Leonardo x1</li>
-                <li>HC-SR04 Ultrasonic Sensor x2</li>
-                <li>Full Sized Breadboard (830 tie-points) x1</li>
-                <li>Basic Yellow LED 5mm x1</li>
-                <li>220 Ohm Resistor x1</li>
-                <li>Mini Pushbutton Switch x1</li>
-                <li>10K Ohm Resistor x1</li>
-                <li>Breadboard Jumper Wires x14</li>
-              </ul>
+            <div className="container">
+              <div className="column-1 box">
+                <div className="card-container">
+                  <h3 className="card-h3">
+                    <strong>(Instructions coming soon!)</strong>
+                  </h3>
+                  <img
+                    className="img-responsive circuit-img"
+                    src="arduino_circuit_diagram.jpg"
+                    alt="arduino circuit diagram"
+                  />
+                </div>
+              </div>
+              <div className="column-1 box">
+                <div className="card-container">
+                  <h3 className="card-h3">Required Components:</h3>
+                  <ul className="component-list">
+                    <li>Arduino Leonardo x1</li>
+                    <li>HC-SR04 Ultrasonic Sensor x2</li>
+                    <li>Full Sized Breadboard (830 tie-points) x1</li>
+                    <li>Basic Yellow LED 5mm x1</li>
+                    <li>220 Ohm Resistor x1</li>
+                    <li>Mini Pushbutton Switch x1</li>
+                    <li>10K Ohm Resistor x1</li>
+                    <li>Breadboard Jumper Wires x14</li>
+                  </ul>
+                </div>
+              </div>
             </div>
           </Card>
         </section>

@@ -5,6 +5,8 @@ body {
 .container {
   display: flex;
   justify-content: space-evenly; 
+  margin-right: 1rem;
+  margin-left: 1rem;
 }
 
 .column-1 {
@@ -53,7 +55,7 @@ main {
 }
 
 .card-h3 {
-  padding-top: 1.5rem;
+  padding-top: 1rem;
   text-align: center;
 }
 
@@ -92,8 +94,8 @@ ul li {
 }
 
 .circuit-img {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .component-list {
